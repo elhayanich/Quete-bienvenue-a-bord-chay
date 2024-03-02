@@ -1,0 +1,204 @@
+:root {
+    --main-color: #a306b6;
+  } 
+
+  *{
+    margin: 0;
+  }
+
+  /* header */
+
+  header{
+    background-color: #a306b6;
+    color: white;
+  }
+  svg{
+    width: 6rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1rem;
+}
+ul{
+list-style: none ;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding-left: 0%;
+padding-bottom: 1rem;
+padding-top: 1rem;
+
+}
+
+.avatareth1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar{
+    border: 2px solid white ;
+    border-radius: 6rem;
+    width: 6rem;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    padding-bottom: 0.8rem;
+}
+
+
+/* Main */
+
+main{
+    background-color: white;
+}
+ h2{
+    color: var(--main-color);
+    text-align: center;
+    padding-top: 1rem;
+ }
+
+
+/* SECTION1 */
+
+.section1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+section img{
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.articles{
+    margin: 1.5rem;
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+}
+
+.article1{ 
+    background-color: lightgrey;
+    margin: 1.5rem;
+    border-radius: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+
+.article2{ 
+    background-color: lightgrey;
+    margin: 1.5rem;
+    border-radius: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.article3{ 
+    background-color: lightgrey;
+    margin: 1.5rem;
+    border-radius: 0.5rem;
+    padding-bottom: 1rem;
+} 
+
+
+
+
+
+
+
+
+article h3{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+article a{
+    text-decoration: none;
+    color:white ;
+    background-color: #a306b6;
+    font-size: 1.5rem;
+    border: 2px solid #a306b6;
+    border-radius: 0.5rem;
+}
+
+/* SCETION2 */
+
+p {
+    padding-top: 1rem;
+    margin-left: 1.5rem ;
+    margin-right: 1.5rem;
+}
+
+/* FOOTER */
+footer{
+    background-color: lightgrey;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* MEDIAQUERRIES */
+
+@media screen and (min-width: 992px) {
+   nav {
+    display: flex;
+    flex-direction: row;
+   }
+   svg{
+    width: 4rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+   }
+   ul{
+    display: flex;
+    width: 25rem;
+    justify-content: space-around;
+ }
+
+ /* J'ai pas pu rapprocher le h1 et l'image avatar de la div "avatareth1" :( */
+
+
+ .avatareth1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    width: 85rem;
+    padding-bottom: 1rem;
+}
+
+.avatar{
+    width: 10rem;
+}
+
+.articles{
+    flex-direction:row;
+    text-align: center;
+}
+
+h2{
+    padding-top: 1.8rem;
+    font-size: 2rem;
+ }
+
+ p {
+    padding-top: 1rem;
+    margin-left: 30rem ;
+    margin-right: 30rem;
+}
+
+footer{
+    margin-top: 6rem;
+}
+
+
+}
